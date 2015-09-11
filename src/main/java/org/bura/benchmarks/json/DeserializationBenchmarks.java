@@ -41,10 +41,12 @@ public class DeserializationBenchmarks {
 
     private static final String RESOURCE_CITYS = "citys";
     private static final String RESOURCE_REPOS = "repos";
+    private static final String RESOURCE_CORPUS = "corpus";
     private static final String RESOURCE_USER = "user";
     private static final String RESOURCE_REQUEST = "request";
 
-    @Param({ RESOURCE_CITYS, RESOURCE_REPOS, RESOURCE_USER, RESOURCE_REQUEST })
+    // @Param({ RESOURCE_CITYS, RESOURCE_REPOS, RESOURCE_CORPUS, RESOURCE_USER, RESOURCE_REQUEST })
+    @Param({ RESOURCE_CORPUS })
     private String resourceName;
 
     private String resource;
